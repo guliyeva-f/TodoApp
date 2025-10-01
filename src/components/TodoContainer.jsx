@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 
 import TodoInput from "./TodoInput";
 import TodoList from "./TodoList";
-import TodoTitle from "./todoTitle";
+import TodoTitle from "./TodoTitle";
 
 function TodoContainer() {
   const [tasks, setTasks] = useState([]);
